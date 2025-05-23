@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+	--font-founders-grotesk: "founders-grotesk", sans-serif;
+	--font-neue-montreal: "neue-montreal", sans-serif;
+	--font-icemoon: "icemoon", sans-serif;
+}
+
 @font-face {
 	font-family: "founders-grotesk";
 	src: url("/fonts/founders-grotesk.woff2") format("woff2"),
