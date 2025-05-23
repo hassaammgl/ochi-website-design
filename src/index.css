@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@font-face {
+	font-family: "founders-grotesk";
+	src: url("/fonts/founders-grotesk.woff2") format("woff2"),
+		url("/fonts/founders-grotesk.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "icemoon";
+	src: url("/fonts/icemoon.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "neue-montreal";
+	src: url("/fonts/neue-montreal.woff2") format("woff2"),
+		url("/fonts/neue-montreal.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
